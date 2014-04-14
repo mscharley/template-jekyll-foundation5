@@ -1,0 +1,24 @@
+source: ./src
+destination: ./site
+plugins: ./plugins
+
+gems:
+- jekyll-compass
+
+markdown: redcarpet
+redcarpet:
+  extensions:
+  - footnotes
+  - highlight
+  - underline
+  - smart
+  - space_after_headers
+  - strikethrough
+
+name: Your New Jekyll Site
+author:
+  name: Me
+  email: me@example.com
+
+timezone: "Australia/Melbourne"
+encoding: "UTF-8"
