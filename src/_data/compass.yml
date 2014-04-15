@@ -1,8 +1,11 @@
 ---
 require:
 - jekyll-compass
+output_style: compressed
 http_path: "/"
 css_dir: css
 sass_dir: _sass
 images_dir: images
 javascripts_dir: javascripts
+import_paths:
+- "assets/foundation/scss"
